@@ -1,19 +1,20 @@
 ##############################################################
 
 BLEduino.name=BLEduino (by Kytelabs)
-BLEduino.upload.tool=avrdude
+BLEduino.upload.tool=arduino:avrdude
 BLEduino.upload.protocol=avr109
 BLEduino.upload.maximum_size=28672
 BLEduino.upload.maximum_data_size=2560
 BLEduino.upload.speed=57600
 BLEduino.upload.disable_flushing=true
 BLEduino.upload.use_1200bps_touch=true
+BLEduino.upload.use_1200bps_touch=true
+BLEduino.upload.wait_for_upload_port=true
 BLEduino.bootloader.tool=arduino:avrdude
 BLEduino.bootloader.low_fuses=0xff
 BLEduino.bootloader.high_fuses=0xd8
 BLEduino.bootloader.extended_fuses=0xcb
-BLEduino.bootloader.path=caterina
-BLEduino.bootloader.file=Caterina-BLEduino.hex
+BLEduino.bootloader.file=caterina/Caterina-BLEduino.hex
 BLEduino.bootloader.unlock_bits=0x3F
 BLEduino.bootloader.lock_bits=0x2F
 BLEduino.build.mcu=atmega32u4
@@ -25,6 +26,7 @@ BLEduino.build.variant=BLEduino
 BLEduino.build.usb_product="BLEduino"
 BLEduino.build.board=AVR_BLEDUINO_16MHZ
 BLEduino.build.extra_flags={build.usb_flags}
-
+BLEduino.vid.0=0x1d50
+BLEduino.pid.0=0x808a
 
 
