@@ -1,3 +1,5 @@
+Rearrange folders to make even more sense...clone and go.
+
 hardware - With Arduino 1.5/1.6 support
 ========
 
