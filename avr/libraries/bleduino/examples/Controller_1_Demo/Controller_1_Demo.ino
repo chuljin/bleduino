@@ -1,5 +1,6 @@
 //Controller-1 Module Code
 //Write string on phone -> Write string to computer via HID simulation
+#include <Keyboard.h>
 #include <BLEduino.h>
 
 BLEduino BLE;
